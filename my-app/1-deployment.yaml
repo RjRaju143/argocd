@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: rjraju/ultron-nginx
+        image: nginx:1.14.2
         ports:
         - containerPort: 80
 
